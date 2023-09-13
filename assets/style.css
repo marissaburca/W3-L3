@@ -25,13 +25,9 @@ h2{
     padding: 20px;
 }
 
-#campo{
-    width: 200px;
-    
-}
 .centro{
     display: inline;
-    text-align: center
+    
    
     
 }
@@ -40,7 +36,7 @@ h2{
 }
 .elemList{
     display: inline-block;
-    width: 200px;
+    width: 400px;
     font-family: 'Caveat', cursive;
     text-align: center;
     background: white;
@@ -60,7 +56,7 @@ h2{
     text-align: center;
     padding: 20px;
 }
-p{
+span{
     font-size: 1.5em;
     padding-top: 10px; 
 }
