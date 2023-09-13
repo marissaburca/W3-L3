@@ -52,7 +52,9 @@ h2{
   }
 
 #amb{
+    
     width: 200px;
+    height: 25px;
 }
 #press{
     text-align: center;
@@ -62,6 +64,10 @@ p{
     font-size: 1.5em;
     padding-top: 10px; 
 }
-p:active{
-    text-decoration: line-through;
+
+.int{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(211, 182, 154);
+    color: white;
 }

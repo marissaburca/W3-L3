@@ -18,7 +18,14 @@ pulsante1.addEventListener('submit', function(e) {
     `
     const contL = document.getElementById('list')
     contL.appendChild(lists)
+    
+    elemenT.value = ''
 
+    const task = document.getElementsByClassName('elemList')[0]
+    task.addEventListener('click',(e) => {
+        const under = e.target
+        under.style.textDecoration = 'line-through'
+      } )
     
 })
 const deleteLists = function (e) {
